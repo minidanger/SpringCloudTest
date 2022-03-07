@@ -17,6 +17,6 @@
     </resultMap>
 
     <select id="getPaymentByid" parameterType="Long" resultMap="BaseResultMap">
-        select * from payment where id=#{id};
+        select * from payment;
     </select>
 </mapper>
